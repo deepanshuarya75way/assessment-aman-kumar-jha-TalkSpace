@@ -5,6 +5,8 @@ import jwt from "jsonwebtoken";
 import mongoose from "mongoose";
 import Friendship from "../models/friendship.model.js";
 import { createMessageForFriends } from "../services/message.service.js";
+// import {CreateSocket} from "../routes/auth.route.js"
+
 
 const app = express();
 const server = http.createServer(app);

@@ -1,6 +1,7 @@
 import { Navigate, Route, Routes } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
 import { useUser } from "@clerk/clerk-react";
+//import {authuser} from "react"
 
 import Login from "./pages/auth/Login.jsx";
 import SignUp from "./pages/auth/Signup.jsx";
